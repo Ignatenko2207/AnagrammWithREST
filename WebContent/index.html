@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Anagram with REST</title>
+</head>
+<body>
+	<h2>Input any phrase to get anagram, but numburs will stay on the same places.</h3>
+	<h3>For example:</h2>
+	<h3>your prase is <em>abc1d23ef ab1cde2</em>.</h3>
+	<h3>It will be changed to <em>fed1c23ba ed1cba2</em></h3>
+	<form action="http://localhost:8080/AnagrammWithREST/response/anagram/get">
+		<input type="text" size="40" name="inputPhrase">
+		<button type="submit">Get anagram</button>
+	</form>
+</body>
+</html>
